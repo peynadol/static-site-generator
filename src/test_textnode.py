@@ -19,6 +19,7 @@ class TestTextNode(unittest.TestCase):
         node = TextNode("This is a text node", TextType.BOLD_TEXT)
         self.assertIsNone(node.url)
 
+        node = TextNode("This is a text node", TextType.CAMELCASE)
         
 if __name__ == "__main__":
     unittest.main()
